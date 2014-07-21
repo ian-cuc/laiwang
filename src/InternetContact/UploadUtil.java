@@ -14,14 +14,7 @@ import java.util.UUID;
 
 import android.util.Log;
 
-/**
-* 
-* 上传工具类
-* @author spring sky<br>
-* Email :vipa1888@163.com<br>
-* QQ: 840950105<br>
-* 支持上传文件和参数
-*/
+
 public class UploadUtil {
 			private static UploadUtil uploadUtil;
 			private static final String BOUNDARY = UUID.randomUUID().toString(); // 边界标识 随机生成
