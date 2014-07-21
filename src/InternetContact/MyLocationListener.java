@@ -37,7 +37,7 @@ public class MyLocationListener implements BDLocationListener {
       
     }
     public void onReceivePoi(BDLocation poiLocation) {
-    	//将在下个版本中去除poi功能
+    	
     	         if (poiLocation == null){
     	                return ;
     	          }
